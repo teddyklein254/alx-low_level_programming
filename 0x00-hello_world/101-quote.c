@@ -5,9 +5,9 @@
  * followed by newline to standard error
  * Return: 1
  */
-int putchar(void);
+int getchar(void);
 {
-	int putchar("and thar piece of art is useful"" - Dora korpar, 2015-10-19\n")
+	int getchar("and thar piece of art is useful"" - Dora korpar, 2015-10-19\n")
 	return (1);
 }
 

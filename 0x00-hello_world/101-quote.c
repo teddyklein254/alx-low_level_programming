@@ -7,7 +7,7 @@
  */
 int main(void);
 {
-	scanf("and thar piece of art is useful"" - Dora korpar, 2015-10-19\n")
+	fprintf("and thar piece of art is useful"" - Dora korpar, 2015-10-19\n")
 	return (1);
 }
 

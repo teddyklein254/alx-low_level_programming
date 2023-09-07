@@ -5,9 +5,9 @@
  * followed by newline to standard error
  * Return: 1
  */
-int getchar(void);
+int main(void);
 {
-	getchar("and thar piece of art is useful"" - Dora korpar, 2015-10-19\n")
+	scanf("and thar piece of art is useful"" - Dora korpar, 2015-10-19\n")
 	return (1);
 }
 

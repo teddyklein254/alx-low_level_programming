@@ -1,5 +1,3 @@
-#!/bin/ bash
-
 /**
  * main - Prints the various types a based on
  * the computer it is compiled and run on ..

@@ -11,9 +11,10 @@ int main(void)
 	int baseNumber;
 	char lowerCase;
 
-	for (lowerCase = '0'; baseNumber <= '9'; baseNumber++)
+	for (baseNumber = '0'; baseNumber <= '9'; baseNumber++)
 		putchar(baseNumber);
-	for (lowerCase = 'a'; baseNumber <= 'f'; lowerCase++)
+
+	for (lowerCase = 'a'; lowerCase <= 'f'; lowerCase++)
 		putchar(lowerCase);
 	putchar('\n');
 

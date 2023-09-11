@@ -6,8 +6,8 @@
 /**
  * main - Entering data for the positive negative
  * Return: 0 (Access granted)
-
-/* betty style doc for function goes there */
+ * betty style doc for function goes there
+ */
 int main(void)
 
 {

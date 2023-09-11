@@ -8,7 +8,7 @@
  * Return: 0 (Access granted)
 
 /* betty style doc for function goes there */
- int main(void)
+int main(void)
 
 {
 	int n;

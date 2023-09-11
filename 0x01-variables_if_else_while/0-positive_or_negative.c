@@ -1,11 +1,15 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <time.h>
+/* more headers goes there */
+
 /**
  * main - Entering data for the positive negative
  * Return: 0 (Access granted)
 
-int main(void)
+/* betty style doc for function goes there */
+ int main(void)
+
 {
 	int n;
 

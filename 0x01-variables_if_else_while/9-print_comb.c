@@ -14,7 +14,7 @@ int main(void)
 		putchar(firstDigit);
 	if (firstDigit != '9')
 	{
-		putchar(', ');
+		putchar(", ");
 	putchar(' ');
 	}
 	putchar('\n');

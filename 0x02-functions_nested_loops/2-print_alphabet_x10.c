@@ -12,5 +12,5 @@ void print_alphabet_x10(void)
 	for (times = 0; times < 10; times++)
 		for (alphabets = 'a'; alphabets <= 'z'; alphabets++)
 		putchar(alphabets);
-	putchar('\n');
+	printf('\n');
 }

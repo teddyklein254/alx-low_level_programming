@@ -2,7 +2,7 @@
 
 /**
  * Function - void
- * main - Printing alphabet in lowercase
+ * Print_alphabet - Printing alphabet in lowercase
  * Return: 0.
  */
 void print_alphabet(void)

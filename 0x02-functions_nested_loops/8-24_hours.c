@@ -13,10 +13,10 @@ void jack_bauer(void)
 
 			for (min_3 = 0; min_3 <= 5; min_3++)
 					for (min_4 = 0; min_4 <= 9; min_4++)
-						_putchar(min_1 + '0');
-					_putchar(min_2 + '0');
-					_putchar(58);
-					_putchar(min_3 + '0');
-					_putchar(min_4 + '0');
-					_putchar('\n');
+						putchar(min_1 + '0');
+					putchar(min_2 + '0');
+					putchar(58);
+					putchar(min_3 + '0');
+					putchar(min_4 + '0');
+					putchar('\n');
 }

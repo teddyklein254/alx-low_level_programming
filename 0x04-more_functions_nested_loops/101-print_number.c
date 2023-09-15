@@ -1,12 +1,11 @@
 #include "main.h"
-#include <stdio.h>
+#include <unistd.h>
 
 /**
  * print_number - integers
  * @n: integer
  * Return: Nothing!
  */
-int _putchar(char c);
 void print_number(int n)
 {
         unsigned int k = n;

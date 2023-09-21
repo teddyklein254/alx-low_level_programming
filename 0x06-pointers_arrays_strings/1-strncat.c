@@ -5,6 +5,7 @@
  * _strncat - function similar to strcat with n bytes
  * @src: it uses bytes to _strncat
  * @n: null terminated
+ * @dest: Result for pointer
  * Return: dest
  */
 char *_strncat(char *dest, char *src, int n)

@@ -2,7 +2,8 @@
 
 /**
  * _strcmp - compares two number of strings
- * @s: string compared
+ * @s1: string compared
+ * @s2: stribg added for comparison
  * Return: 0
  */
 int _strcmp(char *s1, char *s2)

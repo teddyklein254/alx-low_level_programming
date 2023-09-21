@@ -4,7 +4,7 @@
 /**
  * _strncat - function similar to strcat with n bytes
  * @src: it uses bytes to _strncat
- * @n: null terminated
+ * @n: number that to be concatenated
  * @dest: Result for pointer
  * Return: dest
  */

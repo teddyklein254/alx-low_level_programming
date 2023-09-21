@@ -3,8 +3,9 @@
 
 /**
  * _strcat - concatenates strings
- * @s: gives concated string
- * Return: 1
+ * @dest: gives concated string
+ * @src: location of string
+ * Return: Always Success
  */
 char *_strcat(char *dest, char *src)
 {
@@ -16,5 +17,5 @@ char *_strcat(char *dest, char *src)
 	src++;
 
 	*dest = '\0';
-	return dest;
+	return (dest);
 }

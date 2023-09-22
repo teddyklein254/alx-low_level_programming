@@ -3,7 +3,7 @@
 /**
  * rot13 - Contain the encoding characters
  * @s: characters for encoding
- */
+ * Return: Always
 char *rot13(char *s)
 {
 	int num1, num2;

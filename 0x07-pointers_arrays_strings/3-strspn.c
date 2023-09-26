@@ -10,8 +10,10 @@
 unsigned int _strspn(char *s, char *accept)
 {
 	unsigned int y = 0;
-	
-	for (; *s != '\0' && strchr(accept, *s) != NULL; s++)
+
+	{
+		for (; *s != '\0' && strchr(accept, *s) != NULL; s++)
 		y++;
+	}
 	return (y);
 }

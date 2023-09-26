@@ -9,7 +9,8 @@
  */
 void print_diagsums(int *a, int size)
 {
-        int k, b, add1 = 0, add2 = 0;
+        int k, b;
+	int add1 = 0, add2 = 0;
 
         for (k = 0; k < size * size; k = k + size + 1)
                 add1 = add1 + a[k];

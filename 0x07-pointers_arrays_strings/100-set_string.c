@@ -13,5 +13,5 @@ void set_string(char **s, char *to)
 	**s = *to;
 	*to = x;
 
-	printf("%c" ,**s);
+	printf("%c", **s);
 }

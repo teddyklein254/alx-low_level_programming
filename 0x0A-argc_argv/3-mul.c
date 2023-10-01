@@ -8,38 +8,42 @@
  */
 int _atoi(char *s)
 {
-	int k, l, m, leng, n, number;
+	int k, l, m, leng, number;
 	{
 	k = 0;
 	l = 0;
 	m = 0;
 	leng = 0;
-	n = 0;
 	number = 0;
 	}
-
 	while (s[leng] != '\0')
-		leng++;
-	while (k < leng && n == 0)
 	{
-		if (s[k] == '-')
-			++l;
+		leng++;
+	}
+	if (s[k] == '-')
+	{
+		++l;
+	}
+	while (k < leng)
+	{
 	if (s[k] >= '0' && s[k] <= '9')
 	{
 		number = s[k] - '0';
 	if (l % 2)
 		number = -number;
 	m = m * 10 + number;
-	n = 1;
-	if (s[k + 1] < '0' || s[k + 1] > '9')
+	}
+	else
+	{
 	break;
-	n = 0;
 	}
 	k++;
 	}
-	if (n == 0)
-		return (0);
-	return (n);
+	if (l % 2)
+	{
+		m = -m;
+	}
+	return (m);
 }
 
 /**

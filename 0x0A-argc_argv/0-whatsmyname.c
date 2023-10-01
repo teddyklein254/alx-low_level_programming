@@ -3,13 +3,14 @@
 
 /**
  * main - Entry point
- * argc_attribute_((unused) - print arguments
+ * @argc__attribute__((unused) - print arguments
  * @argc: contains command arguments that are to be passed
  * @argv: for array arguments
  * Return: 0
  */
-int main(int argc_attribute_((unused)), char *argv[])
-{
-	printf("%s\n", *argv);
+int main(int argc, char *argv[])
+{(
+	void)argc;
+	printf("%s\n", argv[0]);
 	return (0);
 }

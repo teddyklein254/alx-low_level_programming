@@ -10,13 +10,14 @@
  */
 int check_num(char *str)
 {
-	unsigned int count;
+	unsigned int count = 0;
 
 	while (count < strlen(str))
 	{
-		if (isdigit(str[count]))
+		if (!isdigit(str[count]))
 			return (0);
 		count++;
+	}
 		return (1);
 }
 /**
@@ -34,16 +35,19 @@ int main(int argc, char *argv[])
 	count = 1;
 
 	while (count < argc)
+	{
 		if (check_num(argv[count]))
-
+		{
 			str_to_int = atoi(argv[count]);
-	sum += str_to_int;
-
+			sum += str_to_int;
+		}
 		else
+		{
 			printf("Error\n");
-	return (1);
-
-	count++;
+			return (1);
+		}
+		count++;
+	}
 	printf("%d\n", sum);
 	return (0);
 }

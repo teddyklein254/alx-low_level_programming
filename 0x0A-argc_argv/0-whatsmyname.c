@@ -3,6 +3,7 @@
 
 /**
  * main - Entry point
+ * argc_attribute_((unused) - print arguments
  * @argc: contains command arguments that are to be passed
  * @argv: for array arguments
  * Return: 0

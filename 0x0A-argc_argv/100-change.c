@@ -2,7 +2,6 @@
 #include "main.h"
 #include <stdlib.h>
 
-int coins[] = {25, 10, 5, 2,1};
 /**
  * main - prints the minimum number of coins
  * @argc: contains commands for the number of coins
@@ -12,6 +11,7 @@ int coins[] = {25, 10, 5, 2,1};
 int main(int argc, char *argv[])
 {
 	int num, j, result;
+	int coins[] = {25, 10, 5, 2, 1};
 
 	if (argc != 2)
 	{

@@ -9,13 +9,12 @@
 int _atoi(char *s)
 {
 	int k, l, m, leng, number;
-	{
+
 	k = 0;
 	l = 0;
 	m = 0;
 	leng = 0;
 	number = 0;
-	}
 	while (s[leng] != '\0')
 	{
 		leng++;

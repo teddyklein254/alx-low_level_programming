@@ -1,4 +1,5 @@
 #include "main.h"
+#include <stdlib.h>
 /**
  * free_grid - Frees 2dimensional grid created
  * @height: dimensional grid

@@ -1,4 +1,6 @@
 #include "main.h"
+#include <stddef.h>
+#include <stdlib.h>
 /**
  * _memset - memory thet is being set
  * @s: number of strings
